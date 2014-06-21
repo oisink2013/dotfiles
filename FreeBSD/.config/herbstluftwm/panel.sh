@@ -122,5 +122,5 @@ herbstclient pad $monitor 16
                 ;;
         esac
     done
-} 2> /dev/null | bar -p -g x16 -B "#ff1f1f22" -F '#ffa8a8a8' -f '*-stlarch-medium-r-*-*-10-*-*-*-*-*-*-*,-*-cure-medium-r-*-*-11-*-*-*-*-*-*-*' $1
+} 2> /dev/null | bar -g x16 -B "#ff1f1f22" -F '#ffa8a8a8' -f '*-stlarch-medium-r-*-*-10-*-*-*-*-*-*-*,-*-cure-medium-r-*-*-11-*-*-*-*-*-*-*' $1
 
