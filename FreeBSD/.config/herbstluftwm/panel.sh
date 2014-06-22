@@ -4,10 +4,10 @@
 # cmd=( $line )
 
 # easter eggs
-sep_m="%{B#ff292929}%{F#ff833228}  %{F-}%{B-}"
-sep_v="%{B#ff292929}%{F#ff596875}  %{F-}%{B-}"
-sep_d="%{B#ff292929}%{F#ff8c5b3e}  %{F-}%{B-}"
-sep_c="%{B#ff292929}%{F#ff917154}  %{F-}%{B-}"
+sep_m="%{B#d854152B}%{F#ffC33A3A}  %{F-}%{B-}"
+sep_v="%{B#d854152B}%{F#ffC33A3A}  %{F-}%{B-}"
+sep_d="%{B#d854152B}%{F#ffC33A3A}  %{F-}%{B-}"
+sep_c="%{B#d854152B}%{F#ffC33A3A}  %{F-}%{B-}"
 
 set -f
 
@@ -27,7 +27,7 @@ fi
 
 monitor=${1:-0}
 
-herbstclient pad $monitor 16
+herbstclient pad $monitor 16 
 
 {
     # events:
@@ -41,7 +41,7 @@ herbstclient pad $monitor 16
     date_pid=$!
     
     while true ; do
-	echo "vol $(mixer pcm | tail -1 | sed -E 's/[A-Za-z ]*([0-9]*).*/\1/')%"
+	echo "vol $(mixer pcm | tail -1 | sed -E 's/[A-Za-z ]*([0-9]*).*/\1/') %%"
 	sleep 1 || break
     done > >(uniq_linebuffered) &
     volume_pid=$!
@@ -55,8 +55,9 @@ herbstclient pad $monitor 16
     TAGS=( $(herbstclient tag_status $monitor) )
     unset TAGS[${#TAGS[@]}]
     date_min="--"
-    nowplaying="nothing to see here"
-    windowtitle="...what have you done?"
+    nowplaying="nanimo"
+    windowtitle=""
+
     visible=true
 
     while true ; do
@@ -64,16 +65,16 @@ herbstclient pad $monitor 16
         for i in "${TAGS[@]}" ; do
             case ${i:0:1} in
                 '#') # current tag
-                    echo -n "%{B#ff833228}"
+                    echo -n "%{B#d86A1226}"
                     ;;
                 '+') # active on other monitor
-                    echo -n "%{B#ff917154}"
+                    echo -n "%{B#d8917154}"
                     ;;
                 ':')
                     echo -n "%{B-}"
                     ;;
                 '!') # urgent tag
-                    echo -n "%{B#ff917154}"
+                    echo -n "%{B#d8917154}"
                     ;;
                 *)
                     echo -n "%{B-}"
@@ -82,7 +83,9 @@ herbstclient pad $monitor 16
             echo -n " ${i:1} "
         done
 	
-	echo -n "%{c}$sep_c%{B#ff292929} ${windowtitle//^/^^} %{B-}"
+        if [ -n "$windowtitle" ] ; then 
+            echo -n "%{c}$sep_c%{B#d854152B} ${windowtitle//^/^^} %{B-}"
+        fi
 	
         # align right
         echo -n "%{r}"
@@ -122,5 +125,5 @@ herbstclient pad $monitor 16
                 ;;
         esac
     done
-} 2> /dev/null | bar -g x16 -B "#ff1f1f22" -F '#ffa8a8a8' -f '*-stlarch-medium-r-*-*-10-*-*-*-*-*-*-*,-*-cure-medium-r-*-*-11-*-*-*-*-*-*-*' $1
+} 2> /dev/null | bar -d -g x16 -B "#d832192E" -F '#ffF6C79E' -f '*-stlarch-medium-r-*-*-10-*-*-*-*-*-*-*,-*-cure-medium-r-*-*-11-*-*-*-*-*-*-*' $1
 
