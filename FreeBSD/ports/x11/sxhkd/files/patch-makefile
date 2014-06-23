@@ -1,0 +1,23 @@
+--- Makefile
++++ Makefile
+@@ -3,9 +3,9 @@
+ 
+ CC      ?= gcc
+ LIBS     = -lm -lxcb -lxcb-keysyms
+-CFLAGS  += -std=c99 -pedantic -Wall -Wextra -I$(PREFIX)/include
++CFLAGS  += -std=c99 -Os -pedantic -Wall -Wextra -I$(PREFIX)/include
+ CFLAGS  += -D_POSIX_C_SOURCE=200112L -DVERSION=\"$(VERSION)\"
+-LDFLAGS += -L$(PREFIX)/lib
++LDFLAGS += -s -L$(PREFIX)/lib
+ 
+ PREFIX    ?= /usr/local
+ BINPREFIX  = $(PREFIX)/bin
+@@ -14,8 +14,6 @@
+ SRC = $(wildcard *.c)
+ OBJ = $(SRC:.c=.o)
+ 
+-all: CFLAGS  += -Os
+-all: LDFLAGS += -s
+ all: $(NAME)
+ 
+ debug: CFLAGS += -O0 -g -DDEBUG
