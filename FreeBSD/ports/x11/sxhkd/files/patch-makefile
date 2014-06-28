@@ -1,6 +1,6 @@
 --- Makefile
 +++ Makefile
-@@ -3,9 +3,9 @@
+@@ -3,19 +3,17 @@
  
  CC      ?= gcc
  LIBS     = -lm -lxcb -lxcb-keysyms
@@ -12,7 +12,9 @@
  
  PREFIX    ?= /usr/local
  BINPREFIX  = $(PREFIX)/bin
-@@ -14,8 +14,6 @@
+-MANPREFIX  = $(PREFIX)/share/man
++MANPREFIX  = $(PREFIX)/man
+ 
  SRC = $(wildcard *.c)
  OBJ = $(SRC:.c=.o)
  
