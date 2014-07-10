@@ -15,6 +15,7 @@ xset +fp /usr/local/lib/X11/fonts/stlarch
 xset fp rehash
 
 xsetroot -cursor_name left_ptr &
+xcalib -d : 0 ~/.config/LG_Flatron_W2261V.icc
 
 setxkbmap -model pc104 -layout de
 
