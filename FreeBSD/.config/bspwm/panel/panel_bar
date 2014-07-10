@@ -20,15 +20,15 @@ while read -r line ; do
                 case $item in
                     [OFU]*)
                         # active desktop
-                        wm_infos="$wm_infos%{B#d86A1226} "$name" %{B-}"
+                        wm_infos="$wm_infos%{F#FFedeff2} "$name" %{F-}%{B-}"
                         ;;
                     o*)
                         # inactive but occupied desktop
-                        wm_infos="$wm_infos "$name" "
+                        wm_infos="$wm_infos%{F#ffac6a76} "$name" %{F-}"
                         ;;
                     f*)
                         # inactive desktop
-                        wm_infos="$wm_infos%{F#FFB69375} "$name" %{F-}"
+                        wm_infos="$wm_infos "$name" "
                         ;;
                     u*)
                         # urgent desktop
