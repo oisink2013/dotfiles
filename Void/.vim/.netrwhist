@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/usr/home/ash/.vim'
+let g:netrw_dirhist_2='/usr/home/ash/dotfiles/FreeBSD/.config/bspwm/panel'
+let g:netrw_dirhist_3='/usr/home/ash/.urxvt'
+let g:netrw_dirhist_4='/etc/profile.d'
+let g:netrw_dirhist_5='/home/ash/voidlinux/xbps-packages/srcpkgs/awoken-icons'
+let g:netrw_dirhist_6='/home/ash/voidlinux/xbps-packages/srcpkgs/elementary-icon-theme'

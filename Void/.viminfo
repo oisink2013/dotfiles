@@ -1,0 +1,504 @@
+# Diese viminfo-Datei wurde von Vim 7.4 generiert.
+# Sie können sie verändern, wenn Sie vorsichtig vorgehen!
+
+# Wert von 'encoding', als diese Datei geschrieben wurde
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Letztes Suchmuster:
+~MSle0~/exclude
+
+# Letzte ersetzte Zeichenkette:
+$
+
+# Befehlszeile Geschichte (neueste bis älteste):
+:q
+:w
+:wq
+:PluginInstall
+
+# Suchausdruck Geschichte (neueste bis älteste):
+?/exclude
+?/excep
+?/depends
+
+# Ausdruck Geschichte (neueste bis älteste):
+
+# Eingabe-Zeile Geschichte (neueste bis älteste):
+
+# Eingabe-Zeile Geschichte (neueste bis älteste):
+
+# Register:
+""0	CHAR	0
+	find "${DESTDIR}" -type d -exec chmod 755 '{}' \;
+	    find "${DESTDIR}" -type f -exec chmod 644 '{}' \;
+	
+"1	CHAR	0
+	find "${DESTDIR}" -type d -exec chmod 755 '{}' \;
+	    find "${DESTDIR}" -type f -exec chmod 644 '{}' \;
+	
+"2	LINE	0
+	
+"3	CHAR	0
+		# install fontconfig files
+		vinstall ${FILESDIR}/30-0-liberation-mono.conf 644 \
+			etc/fonts/conf.avail 30-${pkgname}-mono.conf
+		vinstall ${FILESDIR}/30-0-liberation-sans.conf 644 \
+			etc/fonts/conf.avail 30-${pkgname}-sans.conf
+		vinstall ${FILESDIR}/30-0-liberation-serif.conf 644 \
+			etc/fonts/conf.avail 30-${pkgname}-serif.conf
+	
+		vinstall LICENSE 644 usr/share/licenses/${pkgname}
+	
+"4	LINE	0
+	distfiles="https://fedorahosted.org/releases/l/i/liberation-fonts/${pkgname}-${version}.tar.gz"
+"5	LINE	0
+	
+"6	LINE	0
+		"class_g ?= 'plank' && window_type = 'dock'",
+"7	LINE	0
+	
+"8	LINE	0
+		fi
+"9	CHAR	0
+	if (which -s shuffle) then
+			shuffle -p 1 ~/wallpaper/* | feh --bg-fill -f -
+		else
+	
+"-	CHAR	0
+	fonts/TTF
+
+# Datei-Marken:
+'0  1  0  ~/.bashrc
+'1  1  0  /etc/locale.conf
+'2  1  0  ~/.config/bspwm/panel/panel_ba
+'3  29  32  ~/.themes/iris-light/gtk-3.0/gtk.css
+'4  11  0  ~/.config/Xresources
+'5  10  0  ~/.config/gtk-3.0/settings.ini
+'6  1  0  ~/.config/gtk-2.0/gtkfilechooser.ini
+'7  9  0  ~/.gtkrc-2.0
+'8  25  57  ~/voidlinux/xbps-packages/srcpkgs/awoken-icons/template
+'9  27  4  ~/voidlinux/xbps-packages/srcpkgs/awoken-icons/template
+
+# Geschichte (neueste zuerst):
+-'  1  0  ~/.bashrc
+-'  1  0  /etc/locale.conf
+-'  1  0  ~/.config/bspwm/panel/panel_ba
+-'  29  32  ~/.themes/iris-light/gtk-3.0/gtk.css
+-'  1  0  ~/.themes/iris-light/gtk-3.0/gtk.css
+-'  11  0  ~/.config/Xresources
+-'  1  0  ~/.config/Xresources
+-'  10  0  ~/.config/gtk-3.0/settings.ini
+-'  1  0  ~/.config/gtk-3.0/settings.ini
+-'  1  0  ~/.config/gtk-2.0/gtkfilechooser.ini
+-'  9  0  ~/.gtkrc-2.0
+-'  1  0  ~/.gtkrc-2.0
+-'  25  57  ~/voidlinux/xbps-packages/srcpkgs/awoken-icons/template
+-'  1  0  ~/voidlinux/xbps-packages/srcpkgs/awoken-icons/template
+-'  27  4  ~/voidlinux/xbps-packages/srcpkgs/awoken-icons/template
+-'  18  1  ~/voidlinux/xbps-packages/srcpkgs/dejavu-fonts-ttf/template
+-'  1  0  ~/voidlinux/xbps-packages/srcpkgs/dejavu-fonts-ttf/template
+-'  17  0  ~/voidlinux/xbps-packages/srcpkgs/bspwm/template
+-'  1  0  ~/voidlinux/xbps-packages/srcpkgs/bspwm/template
+-'  55  0  ~/voidlinux/xbps-packages/srcpkgs/awoken-icons/template
+-'  8  0  ~/voidlinux/xbps-packages/srcpkgs/awoken-icons
+-'  12  11  ~/voidlinux/xbps-packages/srcpkgs/bar-git/template
+-'  1  0  ~/voidlinux/xbps-packages/srcpkgs/bar-git/template
+-'  27  0  ~/voidlinux/xbps-packages/srcpkgs/liberation-fonts-ttf/template
+-'  1  0  ~/voidlinux/xbps-packages/srcpkgs/liberation-fonts-ttf/template
+-'  19  0  ~/voidlinux/xbps-packages/srcpkgs/elementary-icon-theme-bzr/template
+-'  14  99  ~/voidlinux/xbps-packages/srcpkgs/elementary-icon-theme-bzr/template
+-'  1  0  ~/voidlinux/xbps-packages/srcpkgs/elementary-icon-theme-bzr/template
+-'  4  0  ~/voidlinux/xbps-packages/srcpkgs/elementary/template
+-'  1  0  ~/voidlinux/xbps-packages/srcpkgs/elementary/template
+-'  9  24  ~/voidlinux/xbps-packages/srcpkgs/liberation-fonts-ttf/template
+-'  1  0  ~/.config/wallpaper.sh
+-'  6  0  ~/.config/bspwm/bspwmrc
+-'  1  0  ~/.config/bspwm/bspwmrc
+-'  5  25  ~/.config/bspwm/bspwmrc
+-'  8  9  ~/.config/bspwm/panel/panel
+-'  1  0  ~/.config/bspwm/panel/panel
+-'  46  50  ~/.config/bspwm/panel/panel
+-'  32  21  ~/.config/bspwm/panel/panel
+-'  34  21  ~/.config/bspwm/panel/panel
+-'  33  21  ~/.config/bspwm/panel/panel
+-'  20  0  ~/.config/bspwm/panel/panel
+-'  1  0  ~/.cshrc
+-'  1  0  ~/dotfiles/FreeBSD/.config/bspwm/panel/panel
+-'  31  21  ~/dotfiles/FreeBSD/.config/bspwm/panel/panel
+-'  18  0  ~/.cshrc
+-'  5  0  ~/dotfiles/FreeBSD/.login_conf
+-'  1  0  ~/dotfiles/FreeBSD/.login_conf
+-'  1  0  ~/dotfiles/FreeBSD/etc/sysctl.conf
+-'  12  0  ~/dotfiles/FreeBSD/etc/rc.conf
+-'  1  0  ~/dotfiles/FreeBSD/etc/rc.conf
+-'  1  0  ~/dotfiles/FreeBSD/etc/periodic.conf
+-'  9  24  /etc/profile.d/locale.sh
+-'  1  0  /etc/profile.d/locale.sh
+-'  8  0  /etc/profile.d
+-'  1  0  /etc/profile.d
+-'  12  0  /etc/profile
+-'  1  0  /etc/profile
+-'  1  0  ~/dotfiles/CrunchBang/.config/bspwm/panel/panel
+-'  4  0  ~/dotfiles/FreeBSD/.config/bspwm/panel/panel
+-'  86  1  ~/.config/compton.conf
+-'  195  6  ~/.config/compton.conf
+-'  180  11  ~/.config/compton.conf
+-'  174  109  ~/.config/compton.conf
+-'  17  0  ~/.config/compton.conf
+-'  1  0  ~/.config/compton.conf
+-'  38  60  ~/dotfiles/CrunchBang/.config/bspwm/panel/panel
+-'  4  38  ~/.config/wallpaper.sh
+-'  14  57  ~/.config/fontconfig/fonts.conf
+-'  1  0  ~/.config/fontconfig/fonts.conf
+-'  2  0  ~/.config/Xresources
+-'  3  0  ~/.config/Xresources
+-'  29  1  ~/.config/fontconfig/fonts.conf
+-'  5  3  ~/.config/fontconfig/fonts.conf
+-'  16  0  ~/.config/fontconfig/fonts.conf
+-'  5  14  ~/.config/bspwm/panel/panel
+-'  4  7  ~/.xinitrc
+-'  1  0  ~/.xinitrc
+-'  10  17  /usr/share/fonts/artwiz-fonts/fonts.alias
+-'  1  0  /usr/share/fonts/artwiz-fonts/fonts.alias
+-'  5  29  ~/.xinitrc
+-'  18  0  ~/voidlinux/xbps-packages/srcpkgs/stlarch-font/template
+-'  1  0  ~/voidlinux/xbps-packages/srcpkgs/stlarch-font/template
+-'  13  24  ~/voidlinux/xbps-packages/srcpkgs/stlarch-font/template
+-'  26  0  ~/.xinitrc
+-'  6  0  ~/.config/sxhkdrc
+-'  1  0  ~/.config/sxhkdrc
+-'  149  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  26  2  ~/voidlinux/xbps-packages/srcpkgs/libindicator-gtk3/template
+-'  1  0  ~/voidlinux/xbps-packages/srcpkgs/libindicator-gtk3/template
+-'  13  73  ~/voidlinux/xbps-packages/srcpkgs/libindicator-gtk3/template
+-'  16  13  ~/voidlinux/xbps-packages/srcpkgs/libindicator-gtk3/template
+-'  6  22  ~/voidlinux/xbps-packages/srcpkgs/libindicator-gtk3/template
+-'  77  0  ~/voidlinux/xbps-packages/srcpkgs/gnome/template
+-'  1  0  ~/voidlinux/xbps-packages/srcpkgs/gnome/template
+-'  28  1  ~/voidlinux/xbps-packages/srcpkgs/gnome/template
+-'  30  0  ~/voidlinux/xbps-packages/srcpkgs/libindicator-gtk3/template
+
+# Geschichte der Markierungen innerhalb von Dateien (neueste zuerst):
+
+> ~/.bashrc
+	"	1	0
+	^	18	43
+	.	18	42
+	+	18	42
+
+> /etc/locale.conf
+	"	1	0
+
+> ~/.config/bspwm/panel/panel_ba
+	"	1	0
+
+> ~/.themes/iris-light/gtk-3.0/gtk.css
+	"	29	32
+
+> ~/.config/Xresources
+	"	11	0
+	^	1	45
+	.	1	44
+	+	1	26
+	+	2	0
+	+	1	44
+
+> ~/.config/gtk-3.0/settings.ini
+	"	10	0
+
+> ~/.config/gtk-2.0/gtkfilechooser.ini
+	"	1	0
+
+> ~/.gtkrc-2.0
+	"	9	0
+
+> ~/voidlinux/xbps-packages/srcpkgs/awoken-icons/template
+	"	25	57
+	.	27	0
+	+	27	0
+
+> ~/voidlinux/xbps-packages/srcpkgs/elementary-icon-theme/template
+	"	25	16
+	^	25	17
+	.	25	16
+	+	8	26
+	+	22	0
+	+	21	0
+	+	21	20
+	+	22	0
+	+	21	21
+	+	22	0
+	+	21	0
+	+	18	0
+	+	19	0
+	+	21	0
+	+	21	0
+	+	20	49
+	+	21	47
+	+	15	74
+	+	27	21
+	+	27	0
+	+	26	0
+	+	25	16
+
+> ~/voidlinux/xbps-packages/srcpkgs/dejavu-fonts-ttf/template
+	"	18	1
+
+> ~/voidlinux/xbps-packages/masterdir/destdir/elementary-icon-theme-3.1/INSTALL
+	"	1	0
+
+> ~/voidlinux/xbps-packages/srcpkgs/bspwm/template
+	"	17	0
+
+> ~/voidlinux/xbps-packages/srcpkgs/bar-git/template
+	"	12	11
+
+> ~/voidlinux/xbps-packages/srcpkgs/liberation-fonts-ttf/template
+	"	27	0
+
+> ~/voidlinux/xbps-packages/srcpkgs/elementary-icon-theme-bzr/template
+	"	19	0
+	^	18	54
+	.	19	0
+	+	1	53
+	+	2	32
+	+	1	42
+	+	3	10
+	+	4	9
+	+	2	28
+	+	1	48
+	+	5	18
+	+	8	0
+	+	9	76
+	+	10	29
+	+	11	15
+	+	12	46
+	+	14	0
+	+	13	98
+	+	14	71
+	+	17	33
+	+	18	53
+	+	20	0
+	+	19	0
+
+> ~/voidlinux/xbps-packages/srcpkgs/elementary/template
+	"	4	0
+
+> ~/.config/wallpaper.sh
+	"	1	0
+	^	4	39
+	.	4	38
+	+	5	0
+	+	4	3
+	+	5	0
+	+	4	38
+
+> ~/.config/bspwm/bspwmrc
+	"	6	0
+	^	5	26
+	.	5	25
+	+	5	25
+
+> ~/.config/bspwm/panel/panel
+	"	1	0
+	^	9	9
+	.	9	8
+	+	5	14
+	+	40	57
+	+	5	14
+	+	8	9
+	+	31	21
+	+	32	21
+	+	33	21
+	+	31	0
+	+	48	0
+	+	47	3
+	+	48	0
+	+	47	1
+	+	46	0
+	+	47	0
+	+	46	49
+	+	8	9
+	+	9	8
+
+> ~/.cshrc
+	"	1	0
+	.	16	0
+	+	16	0
+
+> ~/.bash_profile
+	"	1	0
+
+> ~/.login_conf
+	"	6	1
+
+> ~/dotfiles/FreeBSD/.config/bspwm/panel/panel
+	"	1	0
+
+> ~/dotfiles/FreeBSD/.login_conf
+	"	5	0
+
+> /etc/csh.login
+	"	4	0
+
+> /etc/csh.cshrc
+	"	1	0
+
+> /etc/login.defs
+	"	86	0
+
+> ~/dotfiles/FreeBSD/etc/sysctl.conf
+	"	1	0
+
+> ~/dotfiles/FreeBSD/etc/rc.conf
+	"	12	0
+
+> ~/dotfiles/FreeBSD/etc/periodic.conf
+	"	1	0
+
+> /etc/profile.d/locale.sh
+	"	9	24
+
+> /etc/profile
+	"	12	0
+
+> ~/dotfiles/CrunchBang/.config/bspwm/panel/panel
+	"	1	0
+	^	38	61
+	.	38	0
+	+	38	0
+
+> ~/.config/compton.conf
+	"	86	1
+	^	86	20
+	.	86	0
+	+	86	3
+	+	87	0
+	+	86	0
+
+> ~/.config/fontconfig/fonts.conf
+	"	14	57
+	^	29	2
+	.	29	2
+	+	30	0
+	+	5	0
+	+	6	1
+	+	7	1
+	+	8	1
+	+	9	1
+	+	10	1
+	+	11	1
+	+	13	0
+	+	14	4
+	+	15	1
+	+	16	1
+	+	17	2
+	+	15	0
+	+	16	0
+	+	15	2
+	+	16	3
+	+	10	3
+	+	9	3
+	+	8	3
+	+	7	3
+	+	6	3
+	+	5	0
+	+	19	0
+	+	20	3
+	+	21	4
+	+	22	3
+	+	23	0
+	+	25	2
+	+	26	1
+	+	27	4
+	+	28	0
+	+	29	2
+
+> ~/.xinitrc
+	"	4	7
+	^	4	8
+	.	4	7
+	+	5	29
+	+	4	7
+
+> /usr/share/fonts/artwiz-fonts/fonts.alias
+	"	10	17
+
+> ~/voidlinux/xbps-packages/srcpkgs/stlarch-font/template
+	"	18	0
+
+> ~/.vim/bundle/[Vundle] Installer
+	"	11	0
+	.	1	0
+	+	1	0
+
+> ~/.config/sxhkdrc
+	"	6	0
+
+> ~/.viminfo
+	"	149	0
+
+> ~/voidlinux/xbps-packages/srcpkgs/libindicator-gtk3/template
+	"	26	2
+	^	22	3
+	.	22	2
+	+	3	0
+	+	2	24
+	+	3	8
+	+	3	14
+	+	4	9
+	+	8	51
+	+	9	12
+	+	8	0
+	+	9	0
+	+	7	19
+	+	6	22
+	+	7	0
+	+	10	44
+	+	11	77
+	+	14	0
+	+	12	26
+	+	30	0
+	+	29	0
+	+	30	0
+	+	32	0
+	+	32	0
+	+	30	106
+	+	31	59
+	+	32	0
+	+	6	22
+	+	13	73
+	+	29	0
+	+	28	0
+	+	27	8
+	+	22	2
+
+> ~/voidlinux/xbps-packages/srcpkgs/gnome/template
+	"	77	0
+
+> ~/voidlinux/xbps-packages/srcpkgs/wingpanel/template
+	"	7	23
+	^	7	24
+	.	7	0
+	+	1	29
+	+	2	16
+	+	4	9
+	+	3	12
+	+	4	9
+	+	9	34
+	+	10	39
+	+	11	12
+	+	6	0
+	+	7	22
+	+	8	43
+	+	17	0
+	+	31	0
+	+	40	0
+	+	44	0
+	+	40	11
+	+	44	10
+	+	7	0
