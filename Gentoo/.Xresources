@@ -1,0 +1,5 @@
+#include "~/.colors/base16-grayscale.dark.xresources"
+
+URxvt.font: xft:Ubuntu Mono:pixelsize=16
+!URxvt.letterSpace: -1
+URxvt.scrollBar: false

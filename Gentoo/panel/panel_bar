@@ -1,0 +1,27 @@
+#!/bin/sh
+. panel_colors
+
+PADDING="     "
+
+while read -r line ; do
+    case $line in
+        W*)
+            # workspaces
+            ws="$PADDING${line#?}$PADDING"
+            ;;
+        TIME*)
+            # clock output
+            clock="${line#????}"
+            ;;
+        S*)
+            static="${line#?}"
+            ;;
+        V*)
+            vol="${line#?}"
+            ;;
+        B*)
+            bt="${line#?}"
+            ;;
+    esac
+    printf "%s\n" "${ws}%{r}${bt}  ${vol}  ${clock}$PADDING${static}$PADDING"
+done

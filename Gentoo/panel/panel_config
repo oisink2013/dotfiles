@@ -1,0 +1,28 @@
+# File locations
+PANEL_FIFO=/tmp/panel-fifo
+
+# Hardware
+NET_INTERFACE="enp4s0"
+
+# Dimensions
+PANEL_HEIGHT=24
+
+# Fonts
+PANEL_FONT="Noto Sans:size=10:Bold"
+ICON_FONT1="fontcustom:size=14"
+
+# icons
+# bluetooth: e825
+# chat:      e81a
+# clock:     e819
+# link:      e809
+# wifi:      e841
+# home:      e80a
+# flag:      e815
+# mouse:     e812
+# magnifier: e837
+# mute:      e845
+# volume:    e850
+# power:     e83c
+# desktop:   e826
+# computer:  e828
